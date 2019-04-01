@@ -23,8 +23,8 @@ Files:
  * __None__
 
 Tasks:
- - [ ] Create Users table
- - [ ] Create Posts table
+ - [x] Create Users table
+ - [x] Create Posts table
 
 ----
 
@@ -37,8 +37,8 @@ Files:
  * CreateUser.php
  
 Tasks:
-  - [ ] Write form page (CreateUser.html)
-  - [ ] Write processing page (CreateUser.php)
+  - [x] Write form page (CreateUser.html)
+  - [x] Write processing page (CreateUser.php)
 
 ----
 
@@ -51,11 +51,11 @@ Files:
  * CreatePosts.php
 
 Tasks:
-  - [ ] Write frontend page (CreatePosts.html)
-  - [ ] Write backend page (CreatePosts.php)
-  - [ ] SQL Injection prevention
-  - [ ] Do not allow empty posts
-  - [ ] User must exist - handle MySQL error (Foreign Key Constraint)
+  - [x] Write frontend page (CreatePosts.html)
+  - [x] Write backend page (CreatePosts.php)
+  - [x] SQL Injection prevention
+  - [x] Do not allow empty posts
+  - [x] User must exist - handle MySQL error (Foreign Key Constraint)
 
 ----
 
@@ -67,8 +67,8 @@ Files:
  * AdminHome.html
 
 Tasks:
-  - [ ] Link to ViewUsers.php
-  - [ ] Link to ViewUserPosts.html
+  - [x] Link to ViewUsers.php
+  - [x] Link to ViewUserPosts.html
 
 ----
 
