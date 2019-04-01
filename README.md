@@ -80,7 +80,7 @@ Files:
  * ViewUsers.php
 
 Tasks:
-  - [ ] PHP generated table with user data.
+  - [x] PHP generated table with user data.
 
 ----
 
