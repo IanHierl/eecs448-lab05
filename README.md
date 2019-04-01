@@ -92,8 +92,8 @@ Files:
  * ViewUserPosts.php
 
 Tasks:
-  - [ ] Dropdown list selection form
-  - [ ] Return table when user is selected
+  - [x] Dropdown list selection form
+  - [x] Return table when user is selected
 
 ----
 
@@ -106,5 +106,5 @@ Files:
  * DeletePost.php
 
 Tasks:
-  - [ ] Post display table and form page
-  - [ ] Backend MySQL code to delete posts
+  - [x] Post display table and form page
+  - [x] Backend MySQL code to delete posts
