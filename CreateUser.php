@@ -21,8 +21,16 @@ $stmt -> execute();
   <head>
     <meta charset="utf-8">
     <title>Create User</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <nav>
+      <ul>
+        <li><a href="CreateUser.html">Create User</a></li>
+        <li><a href="CreatePosts.html">Create Post</a></li>
+        <li><a href="AdminHome.html">Admin Home</a></li>
+      </ul>
+    </nav>
 <?php
 if ( $mysqli -> errno ) {
   if( $mysqli -> errno == 1062 ) {

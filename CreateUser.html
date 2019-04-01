@@ -4,11 +4,23 @@
   <head>
     <meta charset="utf-8">
     <title>Create User</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <form method="post" action="CreateUser.php">
-      <input type="text" name="username" id="username">
-      <input type="submit" value="Submit">
-    </form>
+    <nav>
+      <ul>
+        <li><a href="CreateUser.html">Create User</a></li>
+        <li><a href="CreatePosts.html">Create Post</a></li>
+        <li><a href="AdminHome.html">Admin Home</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h1>Create User</h1>
+      <form method="post" action="CreateUser.php">
+        <label for="username">Enter a User Id: </label><br>
+        <input type="text" name="username" id="username">
+        <input type="submit" value="Submit">
+      </form>
+    </main>
   </body>
 </html>

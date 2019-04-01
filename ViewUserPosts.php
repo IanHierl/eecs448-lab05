@@ -17,8 +17,16 @@ else $user_selected = false;
   <head>
     <meta charset="utf-8">
     <title>View Posts By User</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <nav>
+      <ul>
+        <li><a href="CreateUser.html">Create User</a></li>
+        <li><a href="CreatePosts.html">Create Post</a></li>
+        <li><a href="AdminHome.html">Admin Home</a></li>
+      </ul>
+    </nav>
     <form method="post" action="ViewUserPosts.php">
       <label for="user_select">Select User: </label>
       <select name="user_select" id="user_select">

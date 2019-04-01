@@ -23,8 +23,16 @@ if( !empty($_POST) ) {
   <head>
     <meta charset="utf-8">
     <title>Delete Posts</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <nav>
+      <ul>
+        <li><a href="CreateUser.html">Create User</a></li>
+        <li><a href="CreatePosts.html">Create Post</a></li>
+        <li><a href="AdminHome.html">Admin Home</a></li>
+      </ul>
+    </nav>
     <form method="post" action="DeletePost.php">
       <table>
         <tr>
